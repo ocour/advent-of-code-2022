@@ -18,6 +18,12 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="part1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="part2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test_input.txt">
@@ -26,5 +32,13 @@
     <Text Include="input.txt">
       <Filter>Resource Files</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="part1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="part2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
